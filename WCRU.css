@@ -1,0 +1,84 @@
+p{
+	font-size:40px;
+    font-family: 'Patrick Hand' ;
+}
+button{
+	width: 300px;
+	height: 100px;
+	border-radius: 8px;
+    font-family: 'Gochi Hand' ;
+}
+h2{
+	font-size: 60px;
+    font-family: 'Chewy' ;
+}
+h3{
+	font-size: 50px;
+    font-family: 'Boogaloo' ;
+}
+#submit{
+	margin-top: 100px;
+}
+
+#two1{
+	background-color: #ffffff;
+	color: #000000;
+}#two1:hover{
+	background-color: #cccccc;
+	color: #000000;
+}
+
+#two2{
+	background-color: #000000;
+	color: #ffffff ;
+}#two2:hover{
+	background-color: #333333;
+	color: #ffffff ;
+}
+
+#two3{
+	background-color: #ffff1a;
+	color: #000000;
+}#two3:hover{
+	background-color: #b3b300;
+	color: #000000;
+}
+
+#two4{
+	background-color: #1aff1a;
+	color: #000000;
+}#two4:hover{
+	background-color: #00b300;
+	color: #000000;
+}
+
+#two5{
+	background-color: #ff33cc;
+	color: #000000;
+}#two5:hover{
+	background-color: #e600ac;
+	color: #000000;
+}
+
+#two6{
+	background-color: #0066ff;
+	color: #000000;
+}#two6:hover{
+	background-color: #0000b3;
+	color: #000000;
+}
+#two7{
+	background-color: #ff0000;
+	color: #000000;
+}#two7:hover{
+	background-color: #b30000;
+	color: #000000;
+}
+
+#two8{
+	background-color: #cc00ff;
+	color: #000000;
+}#two8:hover{
+	background-color: #7a0099;
+	color: #000000;
+}

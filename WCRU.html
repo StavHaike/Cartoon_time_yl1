@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Boogaloo|Chewy|Gochi+Hand|Patrick+Hand&display=swap" rel="stylesheet">
+	<title>The quizz</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script src="WCAR.js"></script>
+	<link rel="stylesheet" type="text/css" href="WCRU.css">
+</head>
+<body>
+	<center>
+		<h3> CARTOON TIME!</h3>
+	<h2> What Cartoon Character Are You?</h2>
+	<!-- Q1 -->
+	<p><u>What is your mood right now?</u></p>
+	<table>
+  		<tbody>
+   	 	<tr>
+   	 		<td><button type="button" class="btn btn-info btn-lg" id="one1" onclick="one1()"><h1>happy</h1></button></td>
+   	 		<td><button type="button" class="btn btn-info btn-lg" id="one2" onclick="one2()"><h1>bored</h1></button></td>
+   	 		<td><button type="button" class="btn btn-info btn-lg" id="one3" onclick="one3()"><h1>angry</h1></button></td>
+   	 		<td><button type="button" class="btn btn-info btn-lg" id="one4" onclick="one4()"><h1>stressed</h1></button></td>
+   	 		<td><button type="button" class="btn btn-info btn-lg" id="one5" onclick="one5()"><h1>annoyed</h1></button></td>
+    	</tr>
+  		</tbody>
+	</table>
+	<!-- Q2 -->
+	<p><u>What is your favorite color?</u></p>
+	<table>
+  		<tbody>
+   	 	<tr>
+      		<td><button type="button" class="btn btn-info btn-lg" id="two1" onclick="two1()"><h1>white</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="two2" onclick="two2()"><h1>black</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="two3" onclick="two3()"><h1>yellow</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="two4" onclick="two4()"><h1>green</h1></button></td>
+      	</tr>
+      	<tr>
+      		<td><button type="button" class="btn btn-info btn-lg" id="two5" onclick="two5()"><h1>pink</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="two6" onclick="two6()"><h1>blue</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="two7" onclick="two7()"><h1>red</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="two8" onclick="two8()"><h1>purple</h1></button></td>
+       	</tr>
+  		</tbody>
+	</table>
+	<!-- Q3 -->
+	<p><u>What is your favorite food?</u></p>
+	<table>
+  		<tbody>
+   	 	<tr>
+      		<td><button type="button" class="btn btn-info btn-lg" id="three1" onclick="three1()"><h1>pizza</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="three2" onclick="three2()"><h1>sushi</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="three3" onclick="three3()"><h1>fruits</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="three4" onclick="three4()"><h1>soup</h1></button></td>
+      	</tr>
+      	<tr>
+      		<td><button type="button" class="btn btn-info btn-lg" id="three5" onclick="three5()"><h1>seads</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="three6" onclick="three6()"><h1>burgers</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="three7" onclick="three7()"><h1>ice</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="three8" onclick="three8()"><h1>worms</h1></button></td>
+       	</tr>
+  		</tbody>
+	</table>
+	<!-- Q4 -->
+	<p><u>What is your favorite animal?</u></p>
+	<table>
+  		<tbody>
+   	 	<tr>
+      		<td><button type="button" class="btn btn-info btn-lg" id="four1" onclick="four1()"><h1>fish</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="four2" onclick="four2()"><h1>snale</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="four3" onclick="four3()"><h1>lion</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="four4" onclick="four4()"><h1>sky bison</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="four9" onclick="four9()"><h1>starfish</h1></button></td>
+
+      	</tr>
+      	<tr>
+      		<td><button type="button" class="btn btn-info btn-lg" id="four5" onclick="four5()"><h1>lemur</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="four6" onclick="four6()"><h1>butterfly</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="four7" onclick="four7()"><h1>platypus</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="four8" onclick="four8()"><h1>pengwin</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="four10" onclick="four10()"><h1>hyena</h1></button></td>
+
+       	</tr>
+  		</tbody>
+	</table>
+	<!-- Q5 -->
+	<p><u>What is your favorite cartoon show?</u></p>
+	<table>
+  		<tbody>
+   	 	<tr>
+      		<td><button type="button" class="btn btn-info btn-lg" id="five1" onclick="five1()"><h1>spongebob</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="five2" onclick="five2()"><h1>phineas & fherb</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="five3" onclick="five3()"><h1>madagascar</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="five4" onclick="five4()"><h1>adventure time</h1></button></td>
+      	</tr>
+      	<tr>
+      		<td><button type="button" class="btn btn-info btn-lg" id="five5" onclick="five5()"><h1>pawerpoff girls</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="five6" onclick="five6()"><h1>Avatar</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="five7" onclick="five7()"><h1>pairy odd parents</h1></button></td>
+       	</tr>
+  		</tbody>
+	</table>
+	<!-- Q6 -->
+	<p><u>What do you want to do with your life?</u></p>
+	<table>
+  		<tbody>
+   	 	<tr>
+      		<td><button type="button" class="btn btn-info btn-lg" id="six1" onclick="six1()"><h1>fight evil</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="six2" onclick="six2()"><h1>fly</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="six3" onclick="six3()"><h1>live in a zoo</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="six4" onclick="six4()"><h1>kidnap people</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="six5" onclick="six5()"><h1>sell burgers</h1></button></td>
+      	</tr>
+      	<tr>
+      		<td><button type="button" class="btn btn-info btn-lg" id="six6" onclick="six6()"><h1>satisfy people</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="six7" onclick="six7()"><h1>go fishing</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="six8" onclick="six8()"><h1>be a spy</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="six9" onclick="six9()"><h1>make stuff</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="six10" onclick="six10()"><h1>have supernatural powers</h1></button></td>
+       	</tr>
+  		</tbody>
+	</table>
+	<!-- Q7 -->
+	<p><u>Where do you want to live?</u></p>
+	<table>
+  		<tbody>
+   	 	<tr>
+      		<td><button type="button" class="btn btn-info btn-lg" id="seven1" onclick="seven1()"><h1>in a pineapple</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="seven2" onclick="seven2()"><h1>normal house</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="seven3" onclick="seven3()"><h1>in an aquarium</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="seven4" onclick="seven4()"><h1>in a zoo</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="seven5" onclick="seven5()"><h1>homeless</h1></button></td>
+      	</tr>
+      	<tr>
+      		<td><button type="button" class="btn btn-info btn-lg" id="seven6" onclick="seven6()"><h1>under a rock</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="seven7" onclick="seven7()"><h1>with your siblings</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="seven8" onclick="seven8()"><h1>in an ice cave</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="seven9" onclick="seven9()"><h1>in the sky</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="seven10" onclick="seven10()"><h1>on a ship</h1></button></td>
+       	</tr>
+  		</tbody>
+	</table>
+	<!-- Q8 -->
+	<p><u>What is your favorite movie genre?</u></p>
+	<table>
+  		<tbody>
+   	 	<tr>
+      		<td><button type="button" class="btn btn-info btn-lg" id="eight1" onclick="eight1()"><h1>action</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="eight2" onclick="eight2()"><h1>science fiction</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="eight3" onclick="eight3()"><h1>Comedy</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="eight4" onclick="eight4()"><h1>romance</h1></button></td>
+      	</tr>
+      	<tr>
+      		<td><button type="button" class="btn btn-info btn-lg" id="eight5" onclick="eight5()"><h1>crime</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="eight6" onclick="eight6()"><h1>horror</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="eight7" onclick="eight7()"><h1>fantasy</h1></button></td>
+       	</tr>
+  		</tbody>
+	</table>
+	<!-- Q9 -->
+	<p><u>What do you think is the most importent quality?</u></p>
+	<table>
+  		<tbody>
+   	 	<tr>
+   	 		<td><button type="button" class="btn btn-info btn-lg" id="nine1" onclick="nine1()"><h1>friendship</h1></button></td>
+   	 		<td><button type="button" class="btn btn-info btn-lg" id="nine2" onclick="nine2()"><h1>courage</h1></button></td>
+   	 		<td><button type="button" class="btn btn-info btn-lg" id="nine3" onclick="nine3()"><h1>humor</h1></button></td>
+   	 		<td><button type="button" class="btn btn-info btn-lg" id="nine4" onclick="nine4()"><h1>love</h1></button></td>
+   	 		<td><button type="button" class="btn btn-info btn-lg" id="nine5" onclick="nine5()"><h1>determination</h1></button></td>
+    	</tr>
+  		</tbody>
+	</table>
+	<!-- Q10 -->
+	<p><u>Your soulmate must have...</u></p>
+	<table>
+  		<tbody>
+   	 	<tr>
+      		<td><button type="button" class="btn btn-info btn-lg" id="ten1" onclick="ten1()"><h1>humor</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="ten2" onclick="ten2()"><h1>a  sense of adventure</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="ten3" onclick="ten3()"><h1>kindness</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="ten4" onclick="ten4()"><h1>loyalty</h1></button></td>
+      	</tr>
+      	<tr>
+      		<td><button type="button" class="btn btn-info btn-lg" id="ten5" onclick="ten5()"><h1>passion</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="ten6" onclick="ten6()"><h1>beauty</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="ten7" onclick="ten7()"><h1>nice smile</h1></button></td>
+       	</tr>
+  		</tbody>
+	</table>
+	<!-- Q11 -->
+	<p><u>What is your favorite hobby?</u></p>
+	<table>
+  		<tbody>
+   	 	<tr>
+      		<td><button type="button" class="btn btn-info btn-lg" id="eleven1" onclick="eleven1()"><h1>learning</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="eleven2" onclick="eleven2()"><h1>go to adventures</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="eleven3" onclick="eleven3()"><h1>chasing love</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="eleven4" onclick="eleven4()"><h1>meet with friends</h1></button></td>
+      	</tr>
+      	<tr>
+      		<td><button type="button" class="btn btn-info btn-lg" id="eleven5" onclick="eleven5()"><h1>sport</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="eleven6" onclick="eleven6()"><h1>eating</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="eleven7" onclick="eleven7()"><h1>being with your pet</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="eleven8" onclick="eleven8()"><h1>nothing special</h1></button></td>
+       	</tr>
+  		</tbody>
+	</table>
+	<!-- Q12 -->
+	<p><u>Where will your dream vacation be? </u></p>
+	<table>
+  		<tbody>
+   	 	<tr>
+      		<td><button type="button" class="btn btn-info btn-lg" id="twelve1" onclick="twelve1()"><h1>Mexico</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="twelve2" onclick="twelve2()"><h1>Madagascar</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="twelve3" onclick="twelve3()"><h1>Antarctica</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="twelve4" onclick="twelve4()"><h1>Japan</h1></button></td>
+      	</tr>
+      	<tr>
+      		<td><button type="button" class="btn btn-info btn-lg" id="twelve5" onclick="twelve5()"><h1>USA</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="twelve6" onclick="twelve6()"><h1>worldwide</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="twelve7" onclick="twelve7()"><h1>Thailand</h1></button></td>
+       	</tr>
+  		</tbody>
+	</table>
+	<!-- Q13 -->
+	<p><u>Pick a career</u></p>
+	<table>
+  		<tbody>
+   	 	<tr>
+      		<td><button type="button" class="btn btn-info btn-lg" id="thirteen1" onclick="thirteen1()"><h1>entrepreneur</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="thirteen2" onclick="thirteen2()"><h1>waiter</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="thirteen3" onclick="thirteen3()"><h1>unemployed</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="thirteen4" onclick="thirteen4()"><h1>spy</h1></button></td>
+      	</tr>
+      	<tr>
+      		<td><button type="button" class="btn btn-info btn-lg" id="thirteen5" onclick="thirteen5()"><h1>solider</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="thirteen6" onclick="thirteen6()"><h1>adventurer</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="thirteen7" onclick="thirteen7()"><h1>evil genius</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="thirteen8" onclick="thirteen8()"><h1>slave</h1></button></td>
+       	</tr>
+  		</tbody>
+	</table>
+	<!-- Q14 -->
+	<p><u> What is your bigest fear?</u></p>
+	<table>
+  		<tbody>
+   	 	<tr>
+      		<td><button type="button" class="btn btn-info btn-lg" id="fourteen1" onclick="fourteen1()"><h1>losing a friend</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="fourteen2" onclick="fourteen2()"><h1>an animal</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="fourteen3" onclick="fourteen3()"><h1>good people</h1></button></td>
+      	</tr>
+      	<tr>
+      		<td><button type="button" class="btn btn-info btn-lg" id="fourteen4" onclick="fourteen4()"><h1>war</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="fourteen5" onclick="fourteen5()"><h1>being powerless</h1></button></td>
+      		<td><button type="button" class="btn btn-info btn-lg" id="fourteen6" onclick="fourteen6()"><h1>being bored</h1></button></td>
+       	</tr>
+  		</tbody>
+	</table>
+	<!-- Q15 -->
+	<p><u>What is your favorite music genre?</u></p>
+	<table>
+  		<tbody>
+   	 	<tr>
+   	 		<td><button type="button" class="btn btn-info btn-lg" id="fifteen1" onclick="fifteen1()"><h1>love songs</h1></button></td>
+   	 		<td><button type="button" class="btn btn-info btn-lg" id="fifteen2" onclick="fifteen2()"><h1>rhythmic songs</h1></button></td>
+   	 		<td><button type="button" class="btn btn-info btn-lg" id="fifteen3" onclick="fifteen3()"><h1>deep songs</h1></button></td>
+   	 		<td><button type="button" class="btn btn-info btn-lg" id="fifteen4" onclick="fifteen4()"><h1>elevator music</h1></button></td>
+   	 		<td><button type="button" class="btn btn-info btn-lg" id="fifteen5" onclick="fifteen5()"><h1>nothing specific</h1></button></td>
+    	</tr>
+  		</tbody>
+	</table>
+
+	<button type="button" class="btn btn-secondary btn-lg" id="submit" onclick="submit()"><h1>submit</h1></button>
+</center>
+</body>
+</html>

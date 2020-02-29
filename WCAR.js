@@ -14,7 +14,8 @@ Appa=0;
 
 function get(id){
 	x=document.getElementById(id);
-	// x.style.color="#cccccc";
+	x.style.backgroundColor="#a3c2c2";
+	x.style.color="black";
 }
 
 function one1(){
@@ -163,6 +164,7 @@ function three1() {
 	get("three7");
 	get("three8");
 }function three3() {
+	Appa++;
 	Poof++;
 	MojoJojo++;
 	get("three2");
@@ -952,6 +954,8 @@ function twelve1() {
 	get("twelve4");
 	get("twelve5");
 	get("twelve6");
+	get("twelve7");
+	
 }function twelve2() {
 	Skipper++;
 	Appa++;
@@ -959,6 +963,7 @@ function twelve1() {
 	get("twelve3");
 	get("twelve4");
 	get("twelve5");
+	get("twelve7");
 	get("twelve6");
 }function twelve3() {
 	Skipper++;
@@ -967,6 +972,7 @@ function twelve1() {
 	get("twelve1");
 	get("twelve4");
 	get("twelve5");
+	get("twelve7");
 	get("twelve6");
 }function twelve4() {
 	Bubbles++;
@@ -975,6 +981,7 @@ function twelve1() {
 	get("twelve3");
 	get("twelve1");
 	get("twelve5");
+	get("twelve7");
 	get("twelve6");
 }function twelve5() {
 	Phineas++;
@@ -988,6 +995,8 @@ function twelve1() {
 	get("twelve4");
 	get("twelve1");
 	get("twelve6");
+	get("twelve7");
+
 }function twelve6() {
 	Appa++;
 	Zuko++;
@@ -996,6 +1005,16 @@ function twelve1() {
 	get("twelve4");
 	get("twelve5");
 	get("twelve1");
+	get("twelve7");
+
+}function twelve7(){
+	get("twelve2");
+	get("twelve3");
+	get("twelve4");
+	get("twelve5");
+	get("twelve1");
+	get("twelve6");
+
 }
 
 function thirteen1(){
@@ -1186,31 +1205,22 @@ function submit(){
 		window.location.assign("Phineas.html");
 	}else if(Perry>=Bubbles&&Perry>=Mort&&Perry>=Poof&&Perry>=MojoJojo&&Perry>=IceKing&&Perry>=Skipper&&Perry>=Zuko&&Perry>=Appa){
 		window.location.assign("Perry.html");
-
 	}else if(Bubbles>=Mort&&Bubbles>=Poof&&Bubbles>=MojoJojo&&Bubbles>=IceKing&&Bubbles>=Skipper&&Bubbles>=Zuko&&Bubbles>=Appa){
 		window.location.assign("Bubbles.html");
-
 	}else if(Mort>=Poof&&Mort>=MojoJojo&&Mort>=IceKing&&Mort>=Skipper&&Mort>=Zuko&&Mort>=Appa){
 		window.location.assign("mort.html");
-
 	}else if(Poof>=MojoJojo&&Poof>=IceKing&&Poof>=Skipper&&Poof>=Zuko&&Poof>=Appa){
 		window.location.assign("poof.html");
-
 	}else if(MojoJojo>=IceKing&&MojoJojo>=Skipper&&MojoJojo>=Zuko&&MojoJojo>=Appa){
 		window.location.assign("mojo.html");
-
 	}else if(IceKing>=Skipper&&IceKing>=Zuko&&IceKing>=Appa){
 		window.location.assign("iceking.html");
-
 	}else if(Skipper>=Zuko&&Skipper>=Appa){
 		window.location.assign("skipper.html");
-
-	}else if(zuko>=Appa){
+	}else if(Zuko>=Appa){
 		window.location.assign("zuko.html");
-
 	}else{
 		window.location.assign("appa.html");
-		
 	}
 
 }
