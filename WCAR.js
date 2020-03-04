@@ -11,6 +11,10 @@ Skipper=0;
 Zuko=0;
 Appa=0;
 
+function startOver(){
+	window.location.assign("WCRU.html");
+
+}
 
 function get(id){
 	x=document.getElementById(id);
